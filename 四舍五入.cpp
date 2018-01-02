@@ -1,8 +1,10 @@
-#include <stdio.h>
-int main ()
+#include <stdio.h> 
+#include <math.h>
+int main()
 {
 	float x;
-	scanf ("%f",&x);
-	printf ("xÔ¼µÈÓÚ%.0f",x);
+	scanf("%f",&x);
+	int y = round(x);
+	printf("%d",y);
 	return 0;
- }
+}
